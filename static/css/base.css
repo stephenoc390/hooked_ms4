@@ -19,6 +19,12 @@ body {
     width: 1.5rem;
 }
 
+#logo {
+    display: inline-block;
+    height: auto;
+    width: 160px;
+}
+
 .main-logo-link {
     width: fit-content;
 }
@@ -78,3 +84,4 @@ body {
         padding-top: 164px;
     }
 }
+
