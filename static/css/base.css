@@ -60,7 +60,11 @@ body {
 }
 
 .border-black {
-    border: 1px solid black i !important;
+    border: 1px solid black !important;
+}
+
+.bg-black {
+    background: #00478F !important;
 }
 
 footer {
