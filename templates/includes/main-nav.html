@@ -17,10 +17,10 @@
                 Tackle
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="tackle-link">
-                <a href="" class="dropdown-item">Rods & Stands</a>
-                <a href="" class="dropdown-item">Reels</a>
-                <a href="" class="dropdown-item">Traces</a>
-                <a href="" class="dropdown-item">All Tackle</a>
+                <a href="{% url 'products' %}?category=rods_and_stands" class="dropdown-item">Rods & Stands</a>
+                <a href="{% url 'products' %}?category=reels" class="dropdown-item">Reels</a>
+                <a href="{% url 'products' %}?category=traces" class="dropdown-item">Traces</a>
+                <a href="{% url 'products' %}?category=rods_and_stands,reels,traces" class="dropdown-item">All Tackle</a>
             </div>
         </li>
 
@@ -29,10 +29,10 @@
                 Bait
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="bait-link">
-                <a href="" class="dropdown-item">Live</a>
-                <a href="" class="dropdown-item">Frozen</a>
-                <a href="" class="dropdown-item">Dried</a>
-                <a href="" class="dropdown-item">All Bait</a>
+                <a href="{% url 'products' %}?category=live" class="dropdown-item">Live</a>
+                <a href="{% url 'products' %}?category=frozen" class="dropdown-item">Frozen</a>
+                <a href="{% url 'products' %}?category=dried" class="dropdown-item">Dried</a>
+                <a href="{% url 'products' %}?category=live,frozen,dried" class="dropdown-item">All Bait</a>
             </div>
         </li>
 
@@ -41,10 +41,10 @@
                 Clothing
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="clothing-link">
-                <a href="" class="dropdown-item">Boots &amp; Wellies</a>
-                <a href="" class="dropdown-item">Jackets &amp; Pants </a>
-                <a href="" class="dropdown-item">Gloves &amp; Hats</a>
-                <a href="" class="dropdown-item">All Clothing</a>
+                <a href="{% url 'products' %}?category=boots_wellies" class="dropdown-item">Boots &amp; Wellies</a>
+                <a href="{% url 'products' %}?category=jackets_pants" class="dropdown-item">Jackets &amp; Pants </a>
+                <a href="{% url 'products' %}?category=gloves_hats" class="dropdown-item">Gloves &amp; Hats</a>
+                <a href="{% url 'products' %}?category=boots_wellies,jackets_pants,gloves_hats" class="dropdown-item">All Clothing</a>
             </div>
         </li>
     </ul>
