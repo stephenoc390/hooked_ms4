@@ -5,7 +5,7 @@ html {
 body {
     background: url('/media/hero-img.jpg') no-repeat center center fixed;
     background-size: cover;
-    min-height: calc(100vh - 164px);
+    height: calc(100vh - 164px);
     color: black;
     font-family: 'Spartan', sans-serif;
     display: flex;
@@ -67,6 +67,18 @@ body {
     background: #00478F !important;
 }
 
+.overlay {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    background: white;
+    z-index: -1;
+}
+
+/*
+ 
 footer {
     left: 0;
     bottom: 0;
@@ -88,6 +100,9 @@ footer {
     left: 0px;
     padding-top: 20px;
   }
+
+  */
+  
 
 /* ..................... Media Queries */
 
@@ -113,3 +128,13 @@ footer {
     }
 }
 
+/* pad the top a bit when navbar is collapsed on mobile */
+@media (max-width: 991px) {
+    .header-container {
+        padding-top: 116px;
+    }
+
+    body {
+        height: calc(100vh - 116px);
+    }
+}
