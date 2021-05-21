@@ -11,4 +11,29 @@
 
 {% block content %}
     <div class="overlay"></div>
+    <div class="container mb-2">
+        <div class="row">
+            <div class="col">
+                <hr>
+                <h2 class="mb-4">Fishing Bag</h2>
+                <hr>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                {% if bag_item %}
+                    <div class="table-responsive rounded"></div>
+                {% else %}
+                    <p class="lead mb-5">The Bag is Empty!</p>
+                    <a href="{% url 'products' %}" class="btn btn-outlibe-black rounded-0 btn-lg">
+                        <span class="icon">
+                            <i class="fas fa-fish"></i>
+                        </span>
+                        <span>Catch another Deal!</span>
+                    </a>
+                {% endif %}
+            </div>
+        </div>
+    </div>
 {% endblock %}
