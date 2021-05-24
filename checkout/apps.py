@@ -5,4 +5,4 @@ class CheckoutConfig(AppConfig):
     name = 'checkout'
 
     def ready(self):
-        imort checkout.signals
+        import checkout.signals
