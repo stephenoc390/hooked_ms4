@@ -1,1 +1,1 @@
-web: gunicorn hooked_ms4.wsgi.application
+web: gunicorn hooked_ms4.wsgi:application
