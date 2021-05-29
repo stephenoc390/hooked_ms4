@@ -137,46 +137,64 @@
     {% block content %}
     {% endblock %}
 
+        <footer class="pt-6 text-cener mt-auto">
+          <div class="container">
+            <div class="row">
+              <div class="col-12 col-sm-6 col-lg-4">
+                <h6 class="footer-titles">
+                  <strong>Location</strong>
+                  <span>
+                    <i class="fas fa-map-pin"></i>
+                  </span>
+                </h6>
+                <ul class="">
+                  <li>Hooked</li>
+                  <li>123 Fishing Land</li>
+                  <li>Seascapes</li>
+                  <li>Ireland </li>
+                </ul>
+              </div>
+              <div class="col-12 col-sm-6 col-lg-4">
+                <h6 class="footer-titles">
+                  <span>
+                    <i class="fas fa-link"></i>
+                  </span>
+                </h6>
+                <ul class="">
+                  <li><a href="{% url 'home' %}">Home</a></li>
+                  <li><a href="{% url 'products' %}">Products</a></li>
+                  <li><a href="{% url 'account_login' %}">Login</a></li>
+                  <li><a href="{% url 'account_signup' %}">Register</a></li>
+                </ul>
+              </div>
+              <div class="col-12 col-sm-6 col-lg-4">
+                <h6 class="footer-titles">
+                  <strong>Contact</strong>
+                  <span>
+                    <i class="fas fa-phone"></i>
+                  </span>
+                </h6>
+                <ul class="">
+                  <li>Phone: 0892111</li>
+                  <li>Email: hooked@mail.com</li>
+                </ul>
+                <ul class="list-inline m-0">
+                  <li class="list-inline-item"><a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a></li>
+                  <li class="list-inline-item"><a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                  <li class="list-inline-item"><a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-square"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </footer>
+
+
     {% block postloadjs %}
     <script type="text/javascript">
       $('.toast').toast('show');
   </script>
     {% endblock %}
     
-<!--
-    
-    <footer>
 
-      <div class="container footer-content">
-        <d    iv class="row">
-          <div class="col-12 col-md-4 footer-about">
-            <h1>Hooked</h1>
-          <p>All your fishing needs in one place</p>
-          <p>All your fishing needs in one place</p>
-          <p>All your fishing needs in one place</p>
-          <p>All your fishing needs in one place</p>
-          </div>
-          <div class="col-12 col-md-4 footer-links">
-            <h1>Hooked</h1>
-          <p>All your fishing needs in one place</p>
-          <p>All your fishing needs in one place</p>
-          <p>All your fishing needs in one place</p>
-          <p>All your fishing needs in one place</p>
-          </div>
-          <div class="col-12 col-md-4 footer-social">
-            <h1>Hooked</h1>
-          <p>All your fishing needs in one place</p>
-          <p>All your fishing needs in one place</p>
-          <p>All your fishing needs in one place</p>
-          <p>All your fishing needs in one place</p>
-          </div>
-        </div>
-          <div class="col-12 footer-bottom">
-        &copy; Hooked 2021 | Created by Stephen O'Connor
-        </div>
-      </div>
-
-    </footer>
-    -->
   </body>
 </html>

@@ -93,7 +93,7 @@
                                     </div>
                                 </div>
                             </div>
-
+                        
                             <div class="col{% if s %}-12 mt-2{% endif %}">
                                 <a href="{% url 'products' %}" class="btn btn-outline-black rounded-0 mt-5">
                                     <span class="icon">
@@ -109,6 +109,63 @@
                     </form>
                 </div>
             </div>
+        </div>
+       <!-- <div class="row">
+            <div class="col-12 col-md-6 col-lg-4 offset-lg-2">
+                <h6><strong>Reviews:</strong></h6>
+                <div class="reviews-wrapper">
+                    {% for reviews in product.reviews.all %}
+                        <div class="notification space-below">
+                            <p>
+                                <strong>Date added: </strong>{{ review.date_added|date:"Y-m-d" }},
+                                <strong>Rating: </strong>{{ review.stars }}
+                            </p>
+
+                            {{ review.content }}
+                        </div>
+                    {% empty %}
+                        <div class="notification space-below">
+                            The are no reviews for this product yet
+                        </div>
+                    {% endfor %}
+                </div>
+                <div class="notifications space-below">
+                    {% if request.user.is_authenticated %}
+                        <form action="." method="POST">
+                            {% csrf_token %}
+                            <div class="field">
+                                <label>Rating</label>
+
+                                <div class="control">
+                                    <div class="select">
+                                        <select name="stars">
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3" selected>3</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="field">
+                                <label>Content</label>
+                                <div class="control">
+                                    <textarea class="textarea" name="content"></textarea>
+                                </div>
+                            </div>
+                            <div class="field">
+                                <div class="control">
+                                    <button class="btn is-success">Submit</button>
+                                </div>
+                            </div>
+                        </form>
+                    {% else %}
+                        <p>Please login to add review</p>
+                    {% endif %}
+                </div>
+            </div>
+            -->
         </div>
     </div>
 {% endblock %}
