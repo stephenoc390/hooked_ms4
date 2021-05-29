@@ -36,8 +36,8 @@ body {
 }
 
 .shop-now-button {
-    background-color: #00478F;
-    color: #FFEB24;
+    background-color: #E8842F;
+    color: #183438;
     min-width: 260px;
 }
 
@@ -65,8 +65,8 @@ body {
 .btn-black:hover,
 .btn-black:active,
 .btn-black:focus {
-    background: #00478F;
-    color: #FFEB24;
+    background: #E8842F;
+    color: #183438;
 }
 .text-black {
     color: #000 !important;
@@ -77,7 +77,7 @@ body {
 }
 
 .bg-black {
-    background: #00478F !important;
+    background: #e8842f !important;
 }
 
 .overlay {
@@ -91,8 +91,8 @@ body {
 }
 
 a.category-badge > span.badge:hover {
-    background: #00478F !important;
-    color: #FFEB24 !important;
+    background: #E8842F !important;
+    color: #183438 !important;
 }
 
 .btt-button {
