@@ -97,6 +97,15 @@ body {
     color: #f2cb05;
 }
 
+.bag-details {
+    color: #fff;
+    
+}
+
+.bag-price {
+    color: #f2cb05;
+}
+
 /* from Bulma */
 .icon {
     align-items: center;

@@ -21,7 +21,7 @@
     background-color: #fefde5 im !important;
 }
 
-..stripe-style-input::placeholder {
+.stripe-style-input::placeholder {
     color: #aab7c4;
 }
 
