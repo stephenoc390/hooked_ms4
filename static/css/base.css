@@ -6,10 +6,28 @@ body {
     background: url('/media/hero-img.jpg') no-repeat center center fixed;
     background-size: cover;
     height: calc(100vh - 164px);
-    color: black;
+    color: #0b0f10;
     font-family: 'Spartan', sans-serif;
     display: flex;
     flex-direction: column;
+}
+
+.buttons {
+    background-color: #e8842f;
+    color: #183438;
+}
+
+.nav-icon {
+    color: #e8842f;
+}
+
+.nav-icon-text {
+    color: #183438;
+}
+
+.delivery-banner {
+    color: #183438;
+    background-color: #e8842f;
 }
 
 /* from Bulma */
@@ -19,6 +37,7 @@ body {
     justify-content: center;
     height: 1.5rem;
     width: 1.5rem;
+    color: #183438;
 }
 
 #logo {
@@ -33,11 +52,12 @@ body {
 
 .hero-text {
     font-family: 'Goldman', sans-serif;
+    color: white;
 }
 
 .shop-now-button {
     background-color: #E8842F;
-    color: #183438;
+    color: red;
     min-width: 260px;
 }
 
