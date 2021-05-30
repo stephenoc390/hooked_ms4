@@ -62,7 +62,20 @@ body {
 
 .product-body {
     font-family: "Yanone Kaffeesatz";
+    font-size: 1.6rem;
 }
+.product-cat {
+    color: #f27405;
+}
+
+.product-rat {
+    color: #f2cb05;
+}
+
+.qty-buttons {
+    color: #fff
+}
+
 
 /* from Bulma */
 .icon {
@@ -95,15 +108,21 @@ body {
     min-width: 260px;
 }
 
-.btn-outline-black {
-    background: white;
-    color: black !important; /* use important to override link colors fro <a> elements */
-    border: 1px solid black;
+
+
+.btn-outline-color {
+    background: #385959;
+    color: white !important; /* use important to override link colors fro <a> elements */
 }
 
-.btn-outline-black:hover,
-.btn-outline-black:active,
-.btn-outline-black:focus {
+.btn-outline-color-bag {
+    background: #f27405;
+    color: white !important; /* use important to override link colors fro <a> elements */
+}
+
+.btn-outline-color:hover,
+.btn-outline-color:active,
+.btn-outline-color:focus {
     background: black;
     color: white !important;
 }
@@ -111,9 +130,9 @@ body {
 .shop-now-button:hover,
 .shop-now-button:active,
 .shop-now-button:focus,
-.btn-black:hover,
-.btn-black:active,
-.btn-black:focus {
+.btn-color:hover,
+.btn-color:active,
+.btn-color:focus {
     background: #E8842F;
     color: #183438;
 }
