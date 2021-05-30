@@ -70,6 +70,19 @@ def product_detail(request, product_id):
         'review': ProductReview
     }
 
+    if request.method == 'POST' and request.user.is_authenticated:
+        stars = request.POST.get('stars', 3)
+        content = request.POST.get('content', '')
+
+        review = ProductReview.objects.create(product=product, user=request.user, stars=stars, content=content)
+
+        context = {
+            'product': product,
+            'review': review,
+            'stars': stars,
+            'content': content
+        }
+
     return render(request, 'products/product_detail.html', context)
 
 

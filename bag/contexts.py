@@ -33,12 +33,12 @@ def bag_contents(request):
                     'size': size,
                 })
 
-    if total < settings.FREE_GIFT_THRESHOLD:
+    if total < settings.FREE_DELIVERY_THRESHOLD:
         delivery = total * Decimal(settings.STANDARD_DELIVERY_PERCENTAGE / 100)
-        free_gift_delta = settings.FREE_GIFT_THRESHOLD - total
+        free_delivery_delta = settings.FREE_DELIVERY_THRESHOLD - total
     else:
         delivery = 0
-        free_gift_delta = 1
+        free_delivery_delta = 0
 
     grand_total = delivery + total
 
@@ -47,8 +47,8 @@ def bag_contents(request):
         'total': total,
         'product_count': product_count,
         'delivery': delivery,
-        'free_gift_delta': free_gift_delta,
-        'free_gift_threshold': settings.FREE_GIFT_THRESHOLD,
+        'free_delivery_delta': free_delivery_delta,
+        'free_delivery_threshold': settings.FREE_DELIVERY_THRESHOLD,
         'grand_total': grand_total,
     }
 
