@@ -111,18 +111,16 @@
             </div>
         </div>
        <div class="row">
-            <div class="col-12 col-md-6 col-lg-4">
-                <h6><strong>Reviews:</strong></h6>
+            <div class="col-12 col-md-6 offset-md-3 col-lg-4 offset-lg-4 reviews">
+                <h4 class="review-head"><strong>Reviews</strong></h4>
                 <div class="reviews-wrapper">
                     {% for review in product.reviews.all %}
                         <div class="notification space-below">
-                            <p>
-                                <strong>Date added: </strong>{{ review.date_added|date:"Y-m-d" }},
-                                <strong>Rating: </strong>{{ review.stars }}
-                            </p>
-
+                            <p>Rating: <strong class="rating-amnt">{{ review.stars }} </strong></p>
                             {{ review.content }}
+                            <p>(Date added: {{ review.date_added|date:"Y-m-d" }})</p>
                         </div>
+                        <hr>
                     {% empty %}
                         <div class="notification space-below">
                             The are no reviews for this product yet
@@ -161,7 +159,7 @@
                             </div>
                         </form>
                     {% else %}
-                        <p>Please login to add review</p>
+                        <p class="review-log">Please <a href="{% url 'account_login' %}" class="review-log">Login</a> to add review</p>
                     {% endif %}
                 </div>
             </div>

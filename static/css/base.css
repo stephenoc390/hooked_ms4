@@ -76,6 +76,26 @@ body {
     color: #fff
 }
 
+.reviews {
+    color: #fff;
+    background-color: rgba(255, 255, 255, .2);
+    text-align: center;
+    font-family: "Yanone Kaffeesatz";
+    border: 3px solid #f27405;
+}
+
+.review-head {
+    color: #f2cb05;
+    font-family: "Averia Libre";
+}
+
+.rating-amnt {
+    font-size: large;
+}
+
+.review-log {
+    color: #f2cb05;
+}
 
 /* from Bulma */
 .icon {
@@ -327,9 +347,7 @@ footer {
 	color: #17a2b8; /* text-info */
 }
 
-.notification.space-below {
-    margin-bottom: 20px;
-}
+
 
 /* Product Form */
 
