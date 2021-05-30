@@ -55,6 +55,15 @@ body {
     color: #fff;
 }
 
+
+.product-details {
+    color: #fff;
+}
+
+.product-body {
+    font-family: "Yanone Kaffeesatz";
+}
+
 /* from Bulma */
 .icon {
     align-items: center;
@@ -118,7 +127,7 @@ body {
     position: fixed;
     background:#222;
     z-index: -1;
-    opacity: .5;
+    opacity: .6;
 }
 
 a.category-badge > span.badge:hover {
