@@ -7,7 +7,7 @@ body {
     background-size: cover;
     height: calc(100vh - 164px);
     color: #385959;
-    font-family: 'Goldman', sans-serif;
+    font-family: 'Zen Dots', sans-serif;
     display: flex;
     flex-direction: column;
 }
@@ -44,6 +44,15 @@ body {
 .delivery-banner {
     color: #f2cb05;
     background-color: #385959;
+    font-family: "Averia Libre";
+}
+
+.page-title {
+    color: #fff;
+}
+
+.product-number {
+    color: #fff;
 }
 
 /* from Bulma */
@@ -53,7 +62,7 @@ body {
     justify-content: center;
     height: 1.5rem;
     width: 1.5rem;
-    color: #183438;
+    color: #385959;
 }
 
 #logo {
@@ -75,11 +84,6 @@ body {
     background-color: #f2cb05;
     color: #385959;
     min-width: 260px;
-}
-
-.btn-black {
-    background: black;
-    color: white;
 }
 
 .btn-outline-black {
@@ -104,17 +108,7 @@ body {
     background: #E8842F;
     color: #183438;
 }
-.text-black {
-    color: #000 !important;
-}
 
-.border-black {
-    border: 1px solid black !important;
-}
-
-.bg-black {
-    background: #e8842f !important;
-}
 
 .overlay {
     height: 100%;
