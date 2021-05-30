@@ -118,7 +118,7 @@
                         <div class="notification space-below">
                             <p>Rating: <strong class="rating-amnt">{{ review.stars }} </strong></p>
                             {{ review.content }}
-                            <p>(Date added: {{ review.date_added|date:"Y-m-d" }})</p>
+                            <p class="text-muted">(Date added: {{ review.date_added|date:"Y-m-d" }})</p>
                         </div>
                         <hr>
                     {% empty %}
@@ -132,8 +132,7 @@
                         <form action="." method="POST">
                             {% csrf_token %}
                             <div class="field">
-                                <label>Rating</label>
-
+                                <label>Select a Rating out of 5</label>
                                 <div class="control">
                                     <div class="select">
                                         <select name="stars">
@@ -147,14 +146,13 @@
                                 </div>
                             </div>
                             <div class="field">
-                                <label>Content</label>
                                 <div class="control">
-                                    <textarea class="textarea" name="content"></textarea>
+                                    <textarea class="textarea" name="content" placeholder="Write your review here"></textarea>
                                 </div>
                             </div>
                             <div class="field">
                                 <div class="control">
-                                    <button class="btn is-success">Submit</button>
+                                    <button class="btn is-success btn btn-color btn-outline-color">Submit</button>
                                 </div>
                             </div>
                         </form>
