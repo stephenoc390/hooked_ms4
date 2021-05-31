@@ -37,9 +37,9 @@
                                 (low to high)</option>
                             <option value="price_desc" {% if current_sorting == 'price_desc' %}selected{% endif %}>Price
                                 (high to low)</option>
-                            <option value="rating_asc" {% if current_sorting == 'rating_asc' %}selected{% endif %}>
+                            <option value="get_rating_asc" {% if current_sorting == 'rating_asc' %}selected{% endif %}>
                                 Rating (low to high)</option>
-                            <option value="rating_desc" {% if current_sorting == 'rating_desc' %}selected{% endif %}>
+                            <option value="get_rating_desc" {% if current_sorting == 'rating_desc' %}selected{% endif %}>
                                 Rating (high to low)</option>
                             <option value="name_asc" {% if current_sorting == 'name_asc' %}selected{% endif %}>Name
                                 (A-Z)</option>
@@ -92,7 +92,7 @@
                                     </p>
                                     {% endif %}
                                     {% if product.rating %}
-                                    <small class="text-muted"><i class="fas fa-fish mr-1"></i>{{ product.rating }}
+                                    <small class="text-muted"><i class="fas fa-fish mr-1"></i>{{ product.get_rating|floatformat:1 }}
                                         rating</small>
                                     {% else %}
                                     <small class="text-muted">No Rating</small>
