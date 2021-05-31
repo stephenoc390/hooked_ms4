@@ -6,7 +6,7 @@ body {
     background: url('/media/hero-img.jpg') no-repeat center center fixed;
     background-size: cover;
     height: calc(100vh - 164px);
-    color: #385959;
+    color: #000;
     font-family: 'Zen Dots', sans-serif;
     display: flex;
     flex-direction: column;
@@ -64,10 +64,17 @@ body {
     font-family: "Yanone Kaffeesatz";
     font-size: 1.6rem;
 }
-.product-cat {
+.product-cat,
+.order-suc {
     color: #f27405;
 }
 
+.make-pay {
+    color: #000;
+    background-color: #f2cb05;
+}
+
+.grand-tot,
 .product-rat {
     color: #f2cb05;
 }
@@ -84,6 +91,10 @@ body {
     border: 3px solid #f27405;
 }
 
+.check-suc {
+    font-family: "Averia Libre";
+}
+
 .review-head {
     color: #f2cb05;
     font-family: "Averia Libre";
@@ -93,7 +104,8 @@ body {
     font-size: large;
 }
 
-.review-log {
+.review-log,
+.order-det {
     color: #f2cb05;
 }
 
@@ -377,12 +389,12 @@ footer {
 
 .custom-checkbox .custom-control-label::before {
     background-color: 0;
-    border-color: #dc3545;
+    border-color: #385959;
 }
 
 .custom-checkbox .custom-control-input:checked~.custom-control-label::before {
-    background-color: #dc3545;
-    border-color: #dc3545;
+    background-color: #385959;
+    border-color: #385959;
     border-radius: 0;
 }
 
@@ -431,13 +443,13 @@ footer {
         font-size: .9rem;
     }
 
-    .btn.btn-outline-black.rounded-0,
-    .btn.btn-black.rounded-0 {
+    .btn.btn-outline-color.rounded-0,
+    .btn.btn-color.rounded-0 {
         padding: .375rem .375rem;
     }
 
-    .btn.btn-outline-black.rounded-0.btn-lg,
-    .btn.btn-black.rounded-0.btn-lg {
+    .btn.btn-outline-color.rounded-0.btn-lg,
+    .btn.btn-color.rounded-0.btn-lg {
         padding: .375rem .375rem;
         font-size: .75rem;
     }
