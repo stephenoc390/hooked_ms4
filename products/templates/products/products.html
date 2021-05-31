@@ -91,8 +91,8 @@
                                         </a>
                                     </p>
                                     {% endif %}
-                                    {% if product.get_rating %}
-                                    <small class="text-muted"><i class="fas fa-fish mr-1"></i>{{ product.get_rating|floatformat:1 }}
+                                    {% if product.rating %}
+                                    <small class="text-muted"><i class="fas fa-fish mr-1"></i>{{ product.rating }}
                                         rating</small>
                                     {% else %}
                                     <small class="text-muted">No Rating</small>
