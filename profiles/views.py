@@ -18,7 +18,7 @@ def profile(request):
             form.save()
             messages.success(request, 'Profile updated successfully')
         else:
-            messages.error(request, 'Update failed, please check the form is correct')
+            messages.error(request, 'Update failed, please check /the form is correct')
     else:
         form = UserProfileForm(instance=profile)
     orders = profile.orders.all()

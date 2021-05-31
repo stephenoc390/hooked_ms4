@@ -288,25 +288,6 @@ input[name='q']::placeholder {
     overflow-x: hidden;
     overflow-y: auto;
 }
-
-
-
- 
-footer {
-    
-    
-    position:fixed;
-    bottom:0;
-    background-color: #183438;
-    color: #E8842F;
-    text-align: center;
-    min-width: 100vw;
-    
-  }
-
-  
-
-
   
 
 /* ..................... Media Queries */
@@ -392,7 +373,7 @@ footer {
 }
 
 .custom-checkbox .custom-control-label::before {
-    background-color: 0;
+    background-color: white;
     border-color: #385959;
 }
 
@@ -427,22 +408,28 @@ footer {
         height: calc(100vh - 116px);
     }
 
-    .display-4.logo-font.text-black {
+    .display-4 {
         font-size: 2rem;
     }
 
     .nav-link {
         padding: 0.15rem;
+        background-color: fff;
+        color: #fff;
     }
 
     .nav-link i.fa-lg {
         font-size: 1rem;
+        background-color: fff;
+        color: #fff;
     }
 
     .navbar-toggler {
         padding: .6rem .6rem;
         font-size: 1rem;
-    }
+    } 
+
+
     #delivery-banner h4 {
         font-size: .9rem;
     }
