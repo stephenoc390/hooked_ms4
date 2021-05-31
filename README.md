@@ -53,11 +53,11 @@ Password : hooked2021
 
 *   ### Wireframes
 
-    -   Desktop Wireframe - [View](https://github.com/stephenoc390/desktop_wireframe.png)
+    -   Desktop Wireframe - [View](https://github.com/stephenoc390/hooked_ms4/blob/master/wireframes/desktop_wireframe.png)
 
-    -   Medium Wireframe - [View](https://github.com/stephenoc390/medium_wireframe.png)
+    -   Medium Wireframe - [View](https://github.com/stephenoc390/hooked_ms4/blob/master/wireframes/medium_wireframes.png)
 
-    -   Mobile Wireframe - [View](https://github.com/stephenoc390/mobile_wireframe.png)
+    -   Mobile Wireframe - [View](https://github.com/stephenoc390/hooked_ms4/blob/master/wireframes/mobile_wireframes.png)
 
 ## Technologies used
 
@@ -196,6 +196,8 @@ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 - The [Code Institute](https://codeinstitute.net/) training videos and projects
 - [CodeWithStein] (https://www.youtube.com/c/CodeWithStein/about)
 video tutorials
+- Code Institute Slack channel for ideas and tips
+- StackOverflow
 
 ### Media
 
