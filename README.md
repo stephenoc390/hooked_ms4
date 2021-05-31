@@ -10,22 +10,28 @@ This website was created by me for my fourth milestone project with Code Institu
 
 User details - 
 username : admin /
-Password : letmeinhere
+Password : hooked2021
 
 ## User Experience (UX) 
 
 - ### User Stories
- -  #### First-time Visitor Goals: 
-    1. As a first time visitor, I want to understand the main purpose of the site and learn more about what it has to offer
-    2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
-    3. As a First Time Visitor, I want to be able to sign up to the website and create an account
-    4. As a First Time Visitor, I want to be able to search for different types of fishing equipment 
-    5. As a First Time Visitor, I want to be able to make a purchase 
-    6. As a First Time Visitor, I want to be able to 
-    6. As a First Time Visitor, I want to be able to logout of my new profile
+ -  #### User Goals: 
+    1. As a User, I want to understand the main purpose of the site
+    2. As a User, I want to be able to easily navigate throughout the site to find content.
+    3. As a User, I want to be able to sign up to the website and create an account
+    4. As a User, I want to be able to search for different types of fishing equipment 
+    5. As a User, I want to be able to make a purchase 
+    6. As a User, I want to be able to change my order before purchase
+    7. As a User, I want to be able to logout of my profile
+    8. As a User,
+    As a User,
+    As a User, 
+    As a User,
+    As a User,
+    As a User,
 
 
-  - #### Frequent/Logged in Visitor Goals 
+  - #### Admin Goals 
     1. As a Frequent User, I want to be able to check for more cocktails added by other users 
     2. As a Frequent User, I want to be able to submit more cocktails and save them to the website 
 
