@@ -51,6 +51,13 @@ Password : hooked2021
         -   The product image were taken from unsplash.com and then cropped to size and look
 
 
+*   ### Wireframes
+
+    -   Desktop Wireframe - [View](https://github.com/stephenoc390/desktop_wireframe.png)
+
+    -   Medium Wireframe - [View](https://github.com/stephenoc390/medium_wireframe.png)
+
+    -   Mobile Wireframe - [View](https://github.com/stephenoc390/mobile_wireframe.png)
 
 ## Technologies used
 
